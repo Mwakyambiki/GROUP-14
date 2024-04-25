@@ -4,8 +4,6 @@
  */
 package human;
 
-import java.util.Scanner;
-
 /**
  *
  * @author D-LUCAS
@@ -20,11 +18,6 @@ public class Human {
        Female Fe = new Female();
        ma.display();
        Fe.display();
-       
-       Scanner sc = new Scanner(System.in);
-        System.out.print("Choose btn female and male\n "
-                +"1:Male\n"
-                +"2:Female\n");
        
     }
     
